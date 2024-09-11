@@ -6,7 +6,7 @@ fun returnLoop(){
     println("Example of return in For-Loop")
     for (x in 1..10){
         if(x < 5){
-            print("${x - 1}")
+            print("${x - 1} ")
         }else{
             return
         }
