@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
         }
         for (array in cinema){
             for ( value in array){
-                print("$value")
+                print(" $value")
             }
             println()
         }
@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
     println()
     for(array in cinema) {
         for (value in array) {
-            print("$value")
+            print(" $value")
         }
         println()
     }
