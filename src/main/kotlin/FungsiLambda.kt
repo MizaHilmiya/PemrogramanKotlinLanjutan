@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
     //Lambda Function
     val mylambda :(String)->Unit = {s:String-> print(s)}
     val v:String = "Jurusan Teknik Informatika"
+    mylambda(v)
     myFun(v, mylambda)//passing lambda as a parameter of another function
 }
 fun MyFunction(x: String):String{
